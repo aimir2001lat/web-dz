@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+html{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.btn{
+    padding: 13px 20px;
+    line-height: 1;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    border: 0.5px solid rgb(255, 255, 77);
+    border-radius: 15px;
+}   
+.btn:not(:last-child){
+    margin-right: 30px;
+}
+.section-heading{
+    text-align: left;
+    margin-left: 30px;
+}
+/* Header */
+.header{
+
+}  
+.header-info{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+.header-info-left{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.header-info-number{
+    margin-left: 40px;
+}
+.nav{
+    display: flex;
+    padding: 15px 30px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.header-nav-list{
+    display: flex;
+}
+.header-nav-item:not(:last-child){
+margin-right: 30px;
+}
+.header-btn{
+    margin-left: auto;
+}
+/* Special */
+.section-special{
+    margin-top: 45px;
+}
+.parent{
+    display: flex;
+  
+  flex: 1 1 50%;
+}
+.section-special-item, .section-hotel-item{
+    width: 573px;
+    padding: 30px;
+    border-radius: 15px;
+}
+.section-special-item:not(:last-child){
+    margin-bottom: 20px;
+}
+.section-hotel-item{
+    margin-left: 20px;
+}
+.section-special-heading, .section-hotel-heading{
+    margin-bottom: 15px;
+}
+.section-special-price, .section-hotel-price{
+    margin-bottom: 35px;
+}
+/* info */
+.section-info{
+    margin-top: 45px;
+}
+.section-info-description{
+line-height: 2;
+max-width: 1100px;
+margin-left: 10px;
+}
+/* Services */
+.section-services{
+    margin-top: 45px;
+}
+.section-services-list{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 0 auto;
+}
+.section-services-item{
+    border-radius: 15px;
+    max-width: 573px;
+    margin-bottom: 24px;
+   background-color: white;
+}
+.section-services-item:not(:nth-child(2n)){
+    margin-right: 25px;
+}
+
+.section-services-info{
+    padding: 26px 0 35px 45px;
+}
+.section-services-info-description{
+    max-width: 402px;
+}
+/* Benefits */
+.section-benefits{
+    margin-top: 45px;
+}
+.section-benefits-list{
+display: flex;
+flex-wrap: wrap;
+margin:0 auto;
+}
+.section-benefits-item{
+    max-width: 276px;
+    padding: 35px 45px 32px 45px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 22px;
+}
+.section-benefits-item:not(:nth-child(4n)){
+margin-right: 22px;
+}
+.section-benefits-description{
+    max-width: 189px;
+}
+/* Placement */
+.section-placement{
+    margin-top: 45px;
+}
+.section-placement-list{
+    display: flex;
+flex-wrap: wrap;
+margin:0 auto;
+}
+.section-placement-item{
+    max-width: 374;
+    padding: 32px 45px ;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 24px;
+}
+.section-placement-item:not(:nth-child(3n)){
+margin-right: 24px;
+}
+.section-placement-up{
+display: flex;
+max-width: 253px;
+margin-bottom: 1em;
+}
+.section-placement-rating{
+    margin-right: auto;
+}
+.section-placement-rating-icon{
+    margin-top: 1em;
+    max-height: 14px;
+}
+
+.section-placement-options-detail{
+    display: flex;
+    margin: auto;
+    margin-top: 100%;
+}
